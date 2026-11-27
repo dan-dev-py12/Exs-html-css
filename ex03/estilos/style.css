@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+:root{
+    --font-nome-produto: 'Arial', sans-serif;
+    --tamanho-font-nome-produto: 1.8em;
+
+    --font-preco-produto: 'Arial', sans-serif;
+    --tamanho-font-preco-produto: 1.6em;
+
+    --font-descricao: 'Arial', sans-serif;
+    --tamanho-font-descricao: 2em; 
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    background-color: gray;
+}
+
+.container{
+    width: 80vw;
+    
+    background-color: white;
+    display: flex;
+    margin: auto;
+}
+
+.card-produto{
+    background-color: lightgray;
+    display: block;
+    margin-left: 10px;
+
+
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+.nome-produto{
+    font-family: var(--font-nome-produto);
+    font-size: var(--tamanho-font-nome-produto);
+}
+
+.preco-produto{
+    font-family: var(--font-preco-produto);
+    font-size: var(--tamanho-font-preco-produto);
+}
+
+.desricao{
+    font-family: var(--font-descricao);
+    font-size: var(--tamanho-font-descricao);
+}
+a.btn{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+a > p{
+    border: 1px solid black;
+    padding: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
